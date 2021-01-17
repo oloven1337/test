@@ -1,0 +1,604 @@
+/* line 1, ../js/Bootstrap/src/scss/style.scss */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 2, ../js/Bootstrap/src/scss/_general.scss */
+header {
+  position: relative;
+}
+
+/* line 6, ../js/Bootstrap/src/scss/_general.scss */
+nav {
+  height: 50px;
+  background-color: #212121;
+  transition: all 1s linear;
+  top: -30px;
+}
+
+/* line 13, ../js/Bootstrap/src/scss/_general.scss */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 20, ../js/Bootstrap/src/scss/_general.scss */
+.menu .menu_link {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 26, ../js/Bootstrap/src/scss/_general.scss */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 29, ../js/Bootstrap/src/scss/_general.scss */
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+/* line 35, ../js/Bootstrap/src/scss/_general.scss */
+.subheader {
+  width: 100%;
+  position: absolute;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 41, ../js/Bootstrap/src/scss/_general.scss */
+.subheader .subheader_logo {
+  display: block;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+/* line 47, ../js/Bootstrap/src/scss/_general.scss */
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 55, ../js/Bootstrap/src/scss/_general.scss */
+.subheader .subheader_call {
+  margin-top: 19px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+}
+
+/* line 63, ../js/Bootstrap/src/scss/_general.scss */
+.subheader .subheader_phone {
+  text-transform: uppercase;
+  line-height: 12px;
+  margin-top: 8px;
+  display: block;
+  text-align: right;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* line 74, ../js/Bootstrap/src/scss/_general.scss */
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+/* line 91, ../js/Bootstrap/src/scss/_general.scss */
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 97, ../js/Bootstrap/src/scss/_general.scss */
+.promo {
+  padding: 150px 0 135px 0;
+  min-height: 800px;
+  background: url("../img/main_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 102, ../js/Bootstrap/src/scss/_general.scss */
+.promo .promo__header {
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 112, ../js/Bootstrap/src/scss/_general.scss */
+.promo .promo_subheader {
+  margin-top: 22px;
+  margin-bottom: 0;
+  color: #ffffff;
+  line-height: 36px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 123, ../js/Bootstrap/src/scss/_general.scss */
+.promo .promo_descr {
+  margin-top: 23px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* line 132, ../js/Bootstrap/src/scss/_general.scss */
+.promo .promo_btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+}
+
+/* line 147, ../js/Bootstrap/src/scss/_general.scss */
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 153, ../js/Bootstrap/src/scss/_general.scss */
+.label {
+  display: block;
+  width: 112px;
+  margin: 35px auto 0 auto;
+  text-align: center;
+  padding: 7px 11px 7px 11px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  background-color: #000000;
+}
+
+/* line 166, ../js/Bootstrap/src/scss/_general.scss */
+.reasons span {
+  color: #1eacc7;
+}
+
+/* line 170, ../js/Bootstrap/src/scss/_general.scss */
+.reasons .reason_item_text {
+  width: 341px;
+  height: 141px;
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 178, ../js/Bootstrap/src/scss/_general.scss */
+.reasons img {
+  margin-right: 26px;
+  margin-top: 45px;
+  width: 113px;
+  height: 113px;
+}
+
+/* line 186, ../js/Bootstrap/src/scss/_general.scss */
+.reasons_item_img {
+  margin-top: 48px;
+  display: flex;
+}
+
+/* line 191, ../js/Bootstrap/src/scss/_general.scss */
+.title {
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 200, ../js/Bootstrap/src/scss/_general.scss */
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+/* line 209, ../js/Bootstrap/src/scss/_general.scss */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_app.png") center center/cover no-repeat;
+}
+
+/* line 214, ../js/Bootstrap/src/scss/_general.scss */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 218, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  opacity: 0.9;
+  margin: 0 auto 19px;
+  padding-top: 92px;
+}
+
+/* line 226, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_1 {
+  background: url("../img/mobile_item.png");
+}
+
+/* line 230, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_2 {
+  background: url("../img/mobile_item2.jpg");
+}
+
+/* line 234, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_3 {
+  background: url("../img/mobile_item3.png");
+}
+
+/* line 238, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_4 {
+  background: url("../img/mobile_item4.png");
+}
+
+/* line 242, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_5 {
+  background: url("../img/mobile_item5.jpg");
+}
+
+/* line 246, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_6 {
+  background: url("../img/mobile_item6.jpg");
+}
+
+/* line 250, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 258, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_plus {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  border-radius: 100%;
+  background-color: #000;
+  bottom: 35px;
+  width: 26px;
+  height: 26px;
+}
+
+/* line 269, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_plus::before {
+  margin-top: 12px;
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 278, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_plus::after {
+  position: absolute;
+  margin-top: 6px;
+  content: '';
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 289, ../js/Bootstrap/src/scss/_general.scss */
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* line 297, ../js/Bootstrap/src/scss/_general.scss */
+.car {
+  background: url("../img/car_bg.jpg") center center/cover no-repeat;
+  min-height: 896px;
+  padding-top: 57px;
+}
+
+/* line 302, ../js/Bootstrap/src/scss/_general.scss */
+.car .title {
+  color: #fff;
+}
+
+/* line 307, ../js/Bootstrap/src/scss/_general.scss */
+.car .label_2 {
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  width: 112px;
+  padding: 8px 15px;
+  color: #070716;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 320, ../js/Bootstrap/src/scss/_general.scss */
+.car .car_in {
+  display: flex;
+  margin: 56px auto;
+}
+
+/* line 325, ../js/Bootstrap/src/scss/_general.scss */
+.car .subtitle {
+  max-width: 297px;
+  margin: 0 auto;
+  color: #000;
+}
+
+/* line 331, ../js/Bootstrap/src/scss/_general.scss */
+.car .sub {
+  margin-top: 19px;
+  min-width: 542px;
+  color: #fff;
+}
+
+/* line 338, ../js/Bootstrap/src/scss/_general.scss */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 341, ../js/Bootstrap/src/scss/_general.scss */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 344, ../js/Bootstrap/src/scss/_general.scss */
+.require_block_nmb {
+  margin-bottom: 0;
+}
+
+/* line 349, ../js/Bootstrap/src/scss/_general.scss */
+.require_title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #1ca8c3;
+}
+
+/* line 355, ../js/Bootstrap/src/scss/_general.scss */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 361, ../js/Bootstrap/src/scss/_general.scss */
+.require_descr {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #1ca8c3;
+}
+
+/* line 369, ../js/Bootstrap/src/scss/_general.scss */
+.require li {
+  display: inline-block;
+  margin-bottom: 8px;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* line 376, ../js/Bootstrap/src/scss/_general.scss */
+.require li:before {
+  content: "";
+  display: inline-block;
+  transform: translate(-5px, -2px);
+  width: 21px;
+  height: 20px;
+  vertical-align: middle;
+  background: url("../icons/check_blue.png") center center/cover no-repeat;
+}
+
+/* line 388, ../js/Bootstrap/src/scss/_general.scss */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 395, ../js/Bootstrap/src/scss/_general.scss */
+.require .warning .require_list li:before {
+  background: url("../icons/check_red.png") center center/cover no-repeat;
+}
+
+/* line 404, ../js/Bootstrap/src/scss/_general.scss */
+.end {
+  min-height: 717px;
+  padding-top: 57px;
+  background: url(../img/bg_end.jpg) center center/cover no-repeat;
+}
+
+/* line 408, ../js/Bootstrap/src/scss/_general.scss */
+.end .label {
+  margin-top: 0;
+  background-color: #ffffff;
+  color: #000;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* line 416, ../js/Bootstrap/src/scss/_general.scss */
+.end .title {
+  margin-top: 32px;
+  color: #fff;
+}
+
+/* line 421, ../js/Bootstrap/src/scss/_general.scss */
+.end .text {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 429, ../js/Bootstrap/src/scss/_general.scss */
+.end .view_all_city {
+  display: block;
+  margin: 0 auto;
+  margin-top: 486px;
+  text-align: center;
+  color: #1fbad6;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 68px;
+  text-align: center;
+}
+
+/* line 442, ../js/Bootstrap/src/scss/_general.scss */
+.border_in_footer {
+  margin: 20px auto;
+  border-top: 4px solid #1fbad6;
+  width: 299px;
+}
+
+/* line 448, ../js/Bootstrap/src/scss/_general.scss */
+.container_footer {
+  min-height: 160px;
+}
+
+/* line 451, ../js/Bootstrap/src/scss/_general.scss */
+.container_footer .footer__inner-society {
+  margin-left: 23px;
+  margin-top: 51px;
+}
+
+/* line 456, ../js/Bootstrap/src/scss/_general.scss */
+.container_footer .title-items {
+  display: flex;
+  justify-content: space-between;
+  width: 364px;
+  margin: 0 auto;
+  margin-top: -24px;
+}
+
+/* line 464, ../js/Bootstrap/src/scss/_general.scss */
+.container_footer .title-item {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* line 471, ../js/Bootstrap/src/scss/_general.scss */
+.container_footer .footer__inner-title {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+  width: 392px;
+  margin: 13px auto 0;
+}
+
+/* line 479, ../js/Bootstrap/src/scss/_general.scss */
+.container_footer .title-item-end {
+  margin: 0;
+  font-size: 11px;
+  color: #999999;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* line 486, ../js/Bootstrap/src/scss/_general.scss */
+.container_footer .language {
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-align: center;
+}
+
+/* line 494, ../js/Bootstrap/src/scss/_general.scss */
+.container_footer .down_apps {
+  display: block;
+  width: 296px;
+  height: 27px;
+  margin-top: -24px;
+  margin-left: auto;
+  margin-right: 23px;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../js/Bootstrap/src/scss/_media.scss */
+  .menu .menu_item {
+    padding-right: 20px;
+  }
+  /* line 7, ../js/Bootstrap/src/scss/_media.scss */
+  .menu .menu_link {
+    font-size: 13px;
+  }
+  /* line 12, ../js/Bootstrap/src/scss/_media.scss */
+  .promo .promo__header {
+    font-size: 50px;
+  }
+  /* line 17, ../js/Bootstrap/src/scss/_media.scss */
+  .reasons .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 21, ../js/Bootstrap/src/scss/_media.scss */
+  .reasons .reason_item_text {
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 29, ../js/Bootstrap/src/scss/_media.scss */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
